@@ -1,0 +1,401 @@
+.slide-page {
+    position: relative; 
+    font-family: "Microsoft Yahei";
+}
+
+.slide-page-1 {
+    background: rgb(129, 216, 208);
+    h1 {
+        visibility: hidden;
+        color: #fff;
+        font-size: 24px;
+        position: absolute;
+        bottom: 18%;
+        left: 50px;
+        width: 100%;
+        text-align: left;
+        text-shadow: 1px 1px 3px #666;
+        span {
+            margin: 0 3px;
+            color: #f60;
+        }
+    }
+    .poem {
+        visibility: hidden;
+        position: absolute;
+        top: 5%;
+        right: 39%;
+        transform: translateX(50%);
+        img {
+            width: 60%
+        }
+    }
+    .us {
+        visibility: hidden;
+        position: absolute;
+        bottom: 31%;
+        left: 0;
+        width: 100%;
+        .yy {
+            position: absolute;
+            bottom: -50px;
+            left: 0%;
+            transform: translateX(-100%);
+            transition: left 1s ease-out, bottom 1s ease-out;
+            z-index: 1;
+            img {
+                width: 60px;
+            }
+        }
+        .tt {
+            position: absolute;
+            bottom: -50px;
+            right: 0%;
+            transform: translateX(100%);
+            transition: right 1s ease-out, bottom 1s ease-out;
+            z-index: 1;
+            img {
+                width: 60px;
+            }
+        }
+    }
+    .city {
+        visibility: hidden;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        img {
+            display: block;
+            width: 100%;
+        }
+        h2 {
+            display: none;
+            position: absolute;
+            bottom: 80px;
+            left: 40px;
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+    &.page-active {
+        h1.active {
+            visibility: visible;
+        }
+        .poem.active {
+            visibility: visible;
+        }
+        .us.active {
+            visibility: visible;
+            .yy {
+                left: 50%;
+                bottom: 0;
+            }
+            .tt {
+                right: 50%;
+                bottom: 0;
+            }
+        }
+        .city.active {
+            visibility: visible;
+        }
+    }
+}
+
+.slide-page-2 {
+    background: rgb(243, 224, 155);
+    h1 {
+        visibility: hidden;
+        position: absolute;
+        left: 30px;
+        top: 12%;
+        height: 75%;
+        color: #fff;
+        font-size: 20px;
+        line-height: 30px;
+        text-shadow: 1px 1px 3px #666;
+        .railway {
+            position: relative;
+            display: block;
+            width: 24px;
+            height: 50%;
+            margin: 5px 0 3px;
+            background: url(../img/railway1.png) repeat-y;
+            background-size: 100% auto;
+            img {
+                position: absolute;
+                top: 0;
+                left: -8px;
+                width: 40px;
+                &.moving {
+                    -webkit-animation-duration: 5s;
+                    animation-duration: 5s;
+                    -webkit-animation-fill-mode: both;
+                    animation-fill-mode: both;
+                    -webkit-animation-iteration-count: infinite;
+                    animation-iteration-count: infinite;
+                    -webkit-animation-name: moving;
+                    animation-name: moving;
+                }
+            }
+            .distance {
+                text-align: center;
+                position: absolute;
+                left: -20px;
+                top: 50px;
+                color: #fff;
+                line-height: 1.5;
+                font-size: 12px;
+            }
+        }
+    }
+    .poem {
+        visibility: hidden;
+        position: absolute;
+        bottom: 20%;
+        right: 15%;
+        text-align: right;
+        img {
+            width: 45%
+        }
+    }
+    .us {
+        visibility: hidden;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        .yy {
+            position: absolute;
+            left: 25%;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0;
+            transition: opacity 1s linear, left 1s 1s ease-out, top 1s 1s ease-out, transform 1s 1s ease-out;
+            z-index: 1;
+            img {
+                display: block;
+                width: 60px;
+            }
+        }
+        .tt {
+            position: absolute;
+            left: 25%;
+            bottom: 50%;
+            opacity: 0;
+            transform: translateX(100%) translateY(50%);
+            transition: opacity 1s linear, left 1s 1s ease-out, bottom 1s 1s ease-out, transform 1s 1s ease-out;
+            z-index: 1;
+            img {
+                display: block;
+                width: 60px;
+            }
+        }
+        
+    }
+    .city1 {
+        visibility: hidden;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+    .city2 {
+        visibility: hidden;
+        position: absolute;
+        top: -10px;
+        left: 0;
+        img {
+            display: block;
+            width: 100%;
+            transform: rotate(-180deg);
+        }
+    }
+    &.page-active {
+        h1.active {
+            visibility: visible;
+        }
+        .poem.active {
+            visibility: visible;
+        }
+        .us.active {
+            visibility: visible;
+            .yy {
+                top: 18%;
+                transform: translateY(-50%) rotate(0deg) scale(0.65);
+                opacity: 1;
+            }
+            .tt {
+                bottom: 25%;
+                transform: translateX(0%) translateY(50%) scale(0.65);
+                opacity: 1;
+            }
+        }
+        .city1.active {
+            visibility: visible;
+        }
+        .city2.active {
+            visibility: visible;
+        }
+    }
+}
+
+.slide-page-3 {
+    background: rgb(254, 223, 225);
+    h1 {
+        visibility: hidden;
+        color: #fff;
+        font-size:24px;
+        position: absolute;
+        bottom: 18%;
+        right: 6%;
+        width: 100%;
+        text-align: right;
+        text-shadow: 1px 1px 3px #ccc;
+        span {
+            margin: 0 3px;
+            color: #f60;
+        }
+    }
+    .poem1 {
+        visibility: hidden;
+        position: absolute;
+        bottom: 45%;
+        right: 4%;
+        margin-right: -48px;
+        img {
+            display: block;
+            width: 60%
+        }
+    }
+    .poem2 {
+        visibility: hidden;
+        position: absolute;
+        bottom: 45%;
+        left: 4%;
+        img {
+            display: block;
+            width: 60%
+        }
+    }
+    .us {
+        visibility: hidden;
+        position: absolute;
+        bottom: 45%;
+        left: 0;
+        width: 100%;
+        // transition: bottom 1s linear;
+        .yy {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-100%);
+            z-index: 1;
+            img {
+                display: block;
+                width: 80px;
+            }
+        }
+        .tt {
+            position: absolute;
+            bottom: 0;
+            right: 50%;
+            transform: translateX(100%);
+            z-index: 1;
+            img {
+                display: block;
+                width: 80px;
+            }
+        }
+    }
+    .xi {
+        visibility: hidden;
+        position: absolute;
+        top: 12%;
+        left: 50%;
+        color: rgb(230,0,0);
+        font-family: "SimHei";
+        font-weight: 700;
+        transform: translateX(-50%);
+        font-size: 100px;
+    }
+    .city {
+        visibility: hidden;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        img {
+            display: block;
+            width: 100%;
+        }
+        h2 {
+            display: none;
+            position: absolute;
+            bottom: 80px;
+            left: 40px;
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+    &.page-active {
+        h1.active {
+            visibility: visible;
+        }
+        .poem1.active {
+            visibility: visible;
+        }
+        .poem2.active {
+            visibility: visible;
+        }
+        .us.active {
+            visibility: visible;
+            // bottom: 40%;
+        }
+        .xi.active {
+           visibility: visible; 
+        }
+        .city.active {
+            visibility: visible;
+        }
+    }
+    canvas {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 0;
+        border: 0px solid #000;
+     }
+}
+
+@-webkit-keyframes moving {
+    0% {
+        top: 0%;
+        transform: translateY(0%);
+    }
+    50% {
+        top: 100%;
+        transform: translateY(-100%);
+    }
+    100% {
+        top: 0%;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes moving {
+    0% {
+        top: 0%;
+        transform: translateY(0%);
+    }
+    50% {
+        top: 100%;
+        transform: translateY(-100%);
+    }
+    100% {
+        top: 0%;
+        transform: translateY(0%);
+    }
+}

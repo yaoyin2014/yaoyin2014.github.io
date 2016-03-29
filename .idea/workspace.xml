@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfdefc09-94bb-4e99-8998-97bcf224478d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bundle.js" afterPath="$PROJECT_DIR$/build/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="cfdefc09-94bb-4e99-8998-97bcf224478d" name="Default" comment="" />
     <ignored path="yaoyin2014.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +24,8 @@
       <file leaf-file-name="bundle.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/bundle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
-              <caret line="1" column="8893" selection-start-line="1" selection-start-column="8893" selection-end-line="1" selection-end-column="8893" />
+            <state vertical-scroll-proportion="0.42517006">
+              <caret line="1" column="9268" selection-start-line="1" selection-start-column="9268" selection-end-line="1" selection-end-column="9268" />
               <folding />
             </state>
           </provider>
@@ -255,8 +252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="1" column="8893" selection-start-line="1" selection-start-column="8893" selection-end-line="1" selection-end-column="8893" />
+        <state vertical-scroll-proportion="0.42517006">
+          <caret line="1" column="9268" selection-start-line="1" selection-start-column="9268" selection-end-line="1" selection-end-column="9268" />
           <folding />
         </state>
       </provider>
