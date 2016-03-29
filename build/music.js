@@ -1,4 +1,5 @@
 document.onreadystatechange = subSomething;//当页面加载状态改变的时候执行这个方法.
+var isPlaying = false;
 function subSomething()
 {
 	if(document.readyState == 'complete'){
@@ -6,7 +7,7 @@ function subSomething()
 
 
 	document.addEventListener('touchstart',touch,false);
-	var isPlaying = false;
+	
 	function touch(){
 		if(!isPlaying){
 
@@ -18,6 +19,12 @@ function subSomething()
 	}
 } //当页面加载状态
 
+}
+
+window.onbeforeunload = function(){
+	if(isPlaying){
+		document.getElementById('Audio').stop();
+	}
 }
 
 
