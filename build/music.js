@@ -1,1 +1,1 @@
-$('#Audio').prop('loop','loop').play();
+document.getElementById('Audio').prop('loop','loop').play();
