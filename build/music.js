@@ -23,7 +23,7 @@ function subSomething()
 
 window.onbeforeunload = function(){
 	if(isPlaying){
-		document.getElementById('Audio').stop();
+		document.getElementById('Audio').pause();
 	}
 }
 
