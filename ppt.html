@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DIY电子请柬简易教程</title>
+    <meta charset="utf-8">
+    <style>
+          @import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+          @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+
+          body {
+            font-family: 'Droid Serif', 'Microsoft Yahei';
+            font-size: medium;
+          }
+          h1, h2, h3 {
+            font-family: 'Yanone Kaffeesatz', 'Microsoft Yahei';
+            font-weight: 400;
+            margin-bottom: 0;
+          }
+          .small, .small * {
+            font-family: 'Droid Serif', 'Microsoft Yahei';
+            font-size: small !important;
+          }
+          code {
+            border-radius: 5px;
+          }
+          a, a > code {
+            color: rgb(249, 38, 114);
+            text-decoration: none;
+          }
+          code {
+            background: #e7e8e2;
+            border-radius: 5px;
+            padding: 2px 5px;
+            color: #f60;
+            font-family: 'Droid Serif';
+          }
+          .red { color: #fa0000; }
+          .inverse {
+            background: #272822;
+            color: #777872;
+            text-shadow: 0 0 20px #333;
+          }
+          .inverse h1, .inverse h2 {
+            color: #f3f3f3;
+            line-height: 0.8em;
+          }
+          .footnote {
+            position: absolute;
+            font-size: small;
+            bottom: 5em;
+            right: 5em;
+          }
+          /* styling only necessary for displaying source */
+          #source {
+            position: absolute;
+            display: none;
+            font-family: monospace;
+            font-size: medium;
+            background: #333333;
+            color: white;
+            padding: 10px;
+            text-align: left;
+            width: 65%;
+            height: 70%;
+            z-index: 1000;
+          }
+          #overlay {
+            position: absolute;
+            display: none;
+            background: black;
+            width: 100%;
+            height: 100%;
+            opacity: 0.2;
+            z-index: 999;
+          }
+        </style>
+</head>
+
+<body>
+    <textarea id="source">
+        class: center, middle, inverse
+
+        # DIY电子请柬
+        # 简易教程
+
+        .footnote[
+          运营研发部 前端开发组 林阳
+        ]
+
+        ---
+        
+        class: center, middle, inverse
+
+        # why?
+
+        ---
+
+        class: center, middle, inverse
+
+        ## for front-end engineer's bigger
+
+        ---
+        
+        class: center, middle, inverse
+
+        # what?
+
+        ---
+
+        class: center, middle, inverse
+
+        ## talk is cheap
+        ## show me the [code](http://dpurl.cn/qr?q=http://love11zi.github.io/invitation/#address)
+
+        ---
+
+        class: center, middle, inverse
+
+        # how?
+
+        ---
+
+        # Planning
+
+        ### 市面上常见的H5场景应用App
+
+        - [360婚嫁网](http://www.360hunjia.com/)
+        - [初页](http://www.ichuye.cn/)
+        - [易企秀](http://eqxiu.com/home)
+
+
+        ### 电子请柬的内容
+
+        1. splash页（loading页）
+        2. 讲故事
+        3. 照片墙
+        4. 请帖正文
+        5. 地图导航
+        6. ...
+        
+
+        ---
+
+        # Design(<del>Copy<del>)
+
+        - splash页
+        .small[
+            爱心gif动画+进度 [http://www.iconfinder.com]
+        ]
+
+        - 讲故事
+        .small[
+            - 页面背景 纯色
+        - 动漫人物形象 [脸萌`](http://www.bqtalk.com/)
+        - 城市剪影 百度
+        - 诗句 [行书生成器](http://xingshu.laoxiezi.com/)
+        ]
+        
+        - 照片墙
+        .small[
+            10张图片散列铺满，点击放大其中某张
+        ]
+
+        - 请帖正文
+        .small[
+            被毙，canvas文字粒子动画代替
+        ]
+           
+        - 地图导航
+        .small[
+            跳转腾讯地图
+        ]
+
+        ---
+
+        # Interaction
+        
+        - ####场景过渡
+
+            全屏幕上下切换页面 `transition` + `transform`
+
+        - ####讲故事
+        
+            元素组合动画 `setTimeout` + `transition` + `transform` + `animation`
+
+        - ####照片放大
+
+            旋转放大+蒙层 `transition` + `transform`
+
+        - ####canvas喷彩动画 粒子动画
+
+        - ####音效
+
+            门德尔松婚礼进行曲钢琴版 `audio`
+
+
+        ---
+
+        # Coding
+
+        - [webpack]()  资源加载，打包合并，本地server
+
+        - [seajs]()  DOM操作库
+
+        - [hammerjs]() 手势库
+
+        - [animate.css]() css3 animation动画库
+
+        - [canvas]() 动画效果
+
+        - [腾讯地图urlapi]() 地图展示
+
+        - [audio]() HTML5音频加载
+
+        - loading加载伪进度
+
+        - 根据hash展示不同页面
+
+
+        ---
+
+        # Deploy
+
+        - [wepack]() 代码压缩，图片base64，样式前缀
+
+        - [Git]() 代码版本控制
+
+        - [Github]() 代码托管
+
+        - [GitHub Pages]() 免费静态页面服务器
+
+        - [七牛云存储]() 免费图床
+
+
+        ---
+
+
+        # Summary
+
+        - ### 最费工夫的不是代码，而是构思、视觉和交互
+
+        - ### 加深了对前端的热爱
+        
+
+        ---
+        
+        class: center, middle, inverse
+
+        # Thanks!
+
+
+
+
+    </textarea>
+    <script src="./build/remark-latest.min.js">
+    </script>
+    <script>
+    var slideshow = remark.create();
+    </script>
+</body>
+
+</html>
