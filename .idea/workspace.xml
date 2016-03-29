@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfdefc09-94bb-4e99-8998-97bcf224478d" name="Default" comment="" />
+    <list default="true" id="cfdefc09-94bb-4e99-8998-97bcf224478d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="yaoyin2014.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,24 +23,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bundle.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bundle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/bundle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24489796">
+            <state vertical-scroll-proportion="7.3636365">
               <caret line="0" column="2859" selection-start-line="0" selection-start-column="2859" selection-end-line="0" selection-end-column="2859" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="153.85715">
-              <caret line="67" column="9" selection-start-line="57" selection-start-column="24" selection-end-line="67" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#span#0;n#h1#0;n#section#1;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.64893615">
+              <caret line="119" column="70" selection-start-line="119" selection-start-column="70" selection-end-line="119" selection-end-column="70" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,8 +71,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/build/bundle.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -245,20 +245,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/build/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="153.85715">
-          <caret line="67" column="9" selection-start-line="57" selection-start-column="24" selection-end-line="67" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#span#0;n#h1#0;n#section#1;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="7.3636365">
+          <caret line="0" column="2859" selection-start-line="0" selection-start-column="2859" selection-end-line="0" selection-end-column="2859" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/bundle.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24489796">
-          <caret line="0" column="2859" selection-start-line="0" selection-start-column="2859" selection-end-line="0" selection-end-column="2859" />
+        <state vertical-scroll-proportion="0.64893615">
+          <caret line="119" column="70" selection-start-line="119" selection-start-column="70" selection-end-line="119" selection-end-column="70" />
           <folding />
         </state>
       </provider>
