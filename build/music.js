@@ -1,0 +1,1 @@
+$('#Audio').prop('loop','loop').play();
