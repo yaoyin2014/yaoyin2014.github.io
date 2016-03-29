@@ -26,8 +26,8 @@
       <file leaf-file-name="bundle.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build/bundle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.030612245">
-              <caret line="0" column="2003" selection-start-line="0" selection-start-column="2003" selection-end-line="0" selection-end-column="2003" />
+            <state vertical-scroll-proportion="0.39455783">
+              <caret line="0" column="2226" selection-start-line="0" selection-start-column="2226" selection-end-line="0" selection-end-column="2226" />
               <folding />
             </state>
           </provider>
@@ -84,9 +84,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-38" />
-    <option name="y" value="115" />
-    <option name="width" value="2001" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
     <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -199,10 +199,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-38" y="115" width="2001" height="1096" extended-state="0" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24146715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25816995" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -255,8 +255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.030612245">
-          <caret line="0" column="2003" selection-start-line="0" selection-start-column="2003" selection-end-line="0" selection-end-column="2003" />
+        <state vertical-scroll-proportion="0.39455783">
+          <caret line="0" column="2226" selection-start-line="0" selection-start-column="2226" selection-end-line="0" selection-end-column="2226" />
           <folding />
         </state>
       </provider>
